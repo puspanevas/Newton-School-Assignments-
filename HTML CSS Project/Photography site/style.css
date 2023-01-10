@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #e5eaeed7;
+}
+
+.title {
+    color: #44496b;
+    text-transform: uppercase;
+}
+
+.navbar-brand h5 {
+    font-weight: 700;
+    color: #ff6127;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ff6127;
+}
+
+/* ---------------
+    Banner
+------------------ */
+#banner img {
+    max-width: 100%;
+    min-height: 50%;
+}
+/*------------------
+    About
+ -------------------*/
+#about {
+    padding: 50px 0 10px 0;
+    
+}
+
+
+#about p {
+    text-align: justify;
+    padding: 5%;
+    text-indent: 5%;
+}
+
+
+/*-------------------
+    service
+  ---------------------*/
+  #service {
+    padding: 50px 0 10px 0;
+
+  }
+
+  #service .container {
+    padding: 20px;
+  }
+
+  .service-list-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .service-list {
+    border: none;
+    border-radius: 5%;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.09);
+    padding: 10px;
+    margin: 15px;
+    height: 95%;
+    transition: transform .2s;
+  
+  }
+
+  .service-list:hover {
+    transform: scale(1.1);
+  } 
+
+  .service-title h5 {
+    padding-top: 10px;
+    color: #ff6127;
+    font-weight: 600;
+  }
+
+  .service-title:hover {
+    color: green;
+    cursor: pointer;
+  }
+
+  .service-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .service-title a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+  }
+
+  /*----------------
+    Gallery 
+   ----------------*/
+   #gallery {
+    padding: 50px 0 10px 0;
+   }
+
+   #gallery img {
+    width: 100%;
+    height: 95%;
+    border-radius: 5px;
+   }
+
+   #gallery .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   }
+
+   .grid-item {
+    padding: 5px;
+   }
+
+   .footer-msg a:hover {
+    text-decoration: none;
+   }
+
+   /* ------------------------
+    Banner
+   --------------------------- */
+   #weddingbanner,
+   #outdoorbanner,
+   #eventbanner {
+    position: relative;
+    color: black;
+    text-align: center;
+    color: #fff;
+  
+   }
+
+   #weddingbanner img,
+   #outdoorbanner img,
+   #eventbanner img {
+    width: 100%;
+    max-height: 90%;
+   }
+
+   .banner-text h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: 600;
+   }
+
+   #description {
+    padding: 5%;
+   }
+
+   #description p {
+    text-align: justify;
+   }
+
+   /* --------------------
+    Social Links
+   ------------------------*/
+   .footer .social-links {
+    text-align: center;
+    padding: 1%;
+   }
+
+
+   .footer .social-links a {
+    font-size: 25px;
+    /* display: inline-block; */
+    background: #333;
+    color: #eee;
+    line-height: 1;
+    padding: 5px 0;
+    /* margin-right: 4px; */
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  .footer .social-links .fa-twitter {
+    background: #55AcEE;
+  }
+  
+  .footer .social-links .fa-facebook-f {
+    background: #3B5998;
+  }
+  
+  .footer .social-links .fa-instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+  
